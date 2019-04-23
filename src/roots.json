@@ -1,0 +1,10 @@
+{
+        "sensory":
+            {"smell/odor":"lfk",
+                "hear(ing)/sound":"zvz",
+                "vision/sight":"xt"
+            },
+
+        "social":
+            {"Salutation/Greeting/Acknowledgement":"tlt"}
+}

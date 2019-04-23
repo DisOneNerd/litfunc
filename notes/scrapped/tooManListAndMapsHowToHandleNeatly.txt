@@ -1,0 +1,70 @@
+So I'm trying to figure out this  modularity issue in my codebase.
+
+At a high-level:
+
+I have a bunch of data types each of which has many constructors.
+For my purposes, I need to be able to take strings and match them to the corresponding constructor AND match constructors to a corresponding string.
+
+Effectively, my code resembles this:
+
+data Attr1 =
+	Attr1Cons1 
+	| Attr1Cons2
+	| ...
+	| Attr1ConsN1
+
+data Attr2 = 
+	Attr2cons1
+	| Attr2Cons2
+	| ...
+	| Attr2ConsN2
+
+...
+
+data AttrM =
+	AttrMCons1
+	| ...
+	AttrMConsNM
+
+Afterwards, for each data type, I define a corresponding list of pairs:
+
+list1 :: [Attr1, String]
+list1 = [ (Attr1Cons1, "string1_1"), (Attr1Cons2, "string1_2"), ... ,(Attr1ConsN1,"string1_N1")]
+list2 = [ (Attr2Cons1, "string2_1"), (Attr2Cons2, "string2_2"), ... ,(Attr2ConsN2,"string2_N2")]
+...
+listM = [ (AttrMCons1, "stringM_1"), (AttrMCons2, "stringM_2"), ... ,(AttrMConsNM,"stringM_NM")]
+
+
+And then I make 2 maps for each list.
+The first map is just a direct map made out of the list of tuples.
+The second map is a map made by a helper function that swaps the key-value pair of each the first:
+
+map1Cons_to_String = Map.fromList list1
+map1String_to_Cons = transMap map1Cons_to_String
+
+map2Cons_to_String = Map.fromList list2
+map2String_to_Cons = transMap map2Cons_to_String
+
+....
+
+mapMCons_to_String = Map.fromList listM
+mapMString_to_Cons = transMap mapMCons_to_String
+
+This already seems messy and arguably overkill - but it gets ~WORSE~ better.
+I still need ways to grab the keys from values and values from the keys, so I use a function. I do this by directly using Map.lookup which yields a Maybe type.
+
+
+grab1Cons_to_String :: Attr1 -> Maybe String
+grab1Cons_to_string cns = Map.lookup cns map1Cons_to_String
+
+grab1String_to_Cons :: String -> Maybe Attr1
+grab1String_to_Cons str = Map.lookup str map1String_to_Cons
+
+The above functions give Maybe types, so I just use a helper function to convert the Maybe types. *Though, in this form, it's not defined for Nothing
+
+convert:: Maybe a-> a
+convert (Just x) = x
+
+This code seems needlessly ugly.
+There's A LOT of repeated stuff that I'm not sure how to handle neatly.
+And in the case of the convert function ( the one thing that is somewhat modular), it isn't defined for Nothing in a "modular" way ( though I'm not sure what that would even be. )

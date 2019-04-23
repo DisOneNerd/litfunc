@@ -1,0 +1,73 @@
+LOC     jin
+ORI     jinis
+ALL     jinfan
+
+ABL     jinur
+NAV     jintas
+ATD     jintis
+
+INT     jintus
+IRL     jinai
+PRT     jintar
+
+LOC     Locative
+- "where X occurs/is (situated)"
+- "In the building"
+- "By the wall"
+- "On the street"
+- "At my house"
+
+ORI     Orientative
+- "-wards"/"-first"
+- "He jumped in feet-first"
+- "The car rolled backward"
+- "He walked butt-ward down the street"
+
+ALL     Allative
+- Where X is going/headed towards
+- w/ Motion -> Direction of Motion
+- "to" or "towards" or "-wards"
+- "I wanded easteward"
+- "The little girl ran toward me"
+- "Throw the rock at that clown!"
+- "We headed for home"
+
+ABL     Ablative
+- Where X is emanating/coming from
+- original movement AWAY from/out of something
+- "He came OUT OF THE EAST"
+- "She walked FORM ( the direction of ) THE RIVER"
+- when STATIC
+-- "reverse directional orientation relative to another noun"
+-- "He FACED *away from* me"
+
+NAV     Navigative
+- That which serves as X's orientational trajectory/path/way
+- Identifies noun relative to whose vector, arc, or trajectory of motion an act, state, or even takes places.
+- Important for vectors of movement
+-- "He crossed the room DIAGONALLY"
+--- He walked diagnoally relative to the long axis of the room.
+- Important for axes of objects in an environment
+-- "We aligned in perpendicular TO THE PATH OF THE SUN"
+-- "I looked DOWN THE STREET"
+
+ATD     ATTENDANT
+- "That in whose presence, which X is/occurs"
+- ‘in the presence of X’,‘before/with X’
+- ‘in X’s presence’ [implies purposeful or a relational reference to X, different
+from LOCATIVE which only signifies location],
+- the difference between ‘I am in my car’ (LOCATIVE) vs. ‘I am at my car’ (ATTENDANT)
+-- the latter implying “I’ve arrived at my car” or “My car is before me.” 
+
+INT     INTRATIVE
+- the place/time since/until/between which X is/occurs
+- ‘since X’/‘until X’ (applies to spatial contexts as well, meaning “between there and here” / “between here and there”) 
+
+IRL     Interrelative
+- the place/time relative to whih X is/occurs
+- ‘spatially/temporally relative to’ [taken from the 2nd function of existing Ithkuil CORRELATIVE case]
+
+PRT     Precurrent
+- The place/time immediataely preceding which, X is/occurs
+- "there having first been X"
+- "preceded by X"
