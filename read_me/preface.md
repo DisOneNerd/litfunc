@@ -2,6 +2,7 @@
 ## What is LIT?:
 
 LIT stands for _Lit Ithkuilic Typing_.
+
 Basically, it is an [Ithkuilic](http://www.ithkuil.net/00_intro.html) conlang that is easier to use than Ithkuil and one that explicitly marks [semantic classes](https://en.wikipedia.org/wiki/Semantic_class). This is similar to how programming languages use [type systems](https://en.wikipedia.org/wiki/Type_system) or how natural languages like Mandarin use [noun classifiers](https://en.wikipedia.org/wiki/Classifier_(linguistics) ) or like how Swahili uses [noun classes](https://en.wikipedia.org/wiki/Noun_class).
 
 In general, most of Ithkuil's goals of representing a large breadth and precision of semantic ideas is preserved, but how LIT does that is somewhat different. The morphology is different. While concision is desirable, it does not take as much priority over ease of use and accuracy of communication.
