@@ -47,7 +47,7 @@ data SDT =
     | Solid
     | MatterProperty
     -- Spatial-Temporal
-    | DimSpaceTime
+    | SpaceTime
     | Orientation
     | Path
     | Season
@@ -101,9 +101,9 @@ tableSDT_to_String =
         (Solid,"nsi"),
         (MatterProperty,"mba"),
 
-        (DimSpaceTime,"tra"),
-        (Orientation,"vu"), 
-        (Path,"vaz"),
+        (SpaceTime,"tra"),
+        (Orientation,"vaz"), 
+        (Path,"vu"),
         (Season,"si"),
         (Region,"mai"),
 
@@ -177,11 +177,11 @@ tablePerspective = [ (Monadic,"s"),(Unbounded,"l"), (Nomic,"n"), (Abstract,"r")]
 ( mapPSP_Str, mapStr_PSP ) = doubleAssociate tablePerspective
 
 tableStructure :: [(Structure,String)]
-tableStructure = [ (Uniplex,"e"), (Discrete,"a"),(Sequential,"i"),(Segmentive,"u")]
+tableStructure = [ (Uniplex,"es"), (Discrete,"as"),(Sequential,"is"),(Segmentive,"us")]
 ( mapSTRCT_Str, mapStr_STRCT ) = doubleAssociate tableStructure
 
 tableExtension :: [(Extension,String)]
-tableExtension = [(Delimitive,""), (Proximal,"ps"),(Inceptive,"ft"), (Terminative,"tx"), (Depletive,"sk"), (Graduative,"kf")]
+tableExtension = [(Delimitive,""), (Proximal,"ps"),(Inceptive,"ft"), (Terminative,"tx"), (Depletive,"vg"), (Graduative,"kf")]
 ( mapEXT_Str, mapStr_EXT ) = doubleAssociate tableExtension
 
 -----
@@ -225,15 +225,15 @@ grabVFA Formative{_variance=var, _fuzziness = fuzz, _affiliation = affl} =
  ( var, fuzz, affl)
 
 tableVariance :: [(Variance,String)]
-tableVariance = [ (Homogenous,"e"),(Mediary,"au"), (Heterogenous,"ui")]
+tableVariance = [ (Homogenous,"e"),(Mediary,"a"), (Heterogenous,"i")]
 ( mapVAR_Str, mapStr_VAR ) = doubleAssociate tableVariance
 
 tableFuzziness :: [(Fuzziness,String)]
-tableFuzziness = [(Distinct, ""), (Blurry,"n"), (Incoherent,"r")]
+tableFuzziness = [(Distinct, ""), (Blurry,"n"), (Incoherent,"t")]
 ( mapFUZ_Str, mapStr_FUZ) = doubleAssociate tableFuzziness
 
 tableAffiliation :: [(Affiliation, String)]
-tableAffiliation = [(NoSignificance, ""),(Harmonious, "s"), (Discordial,"t")]
+tableAffiliation = [(NoSignificance, ""),(Harmonious, "s"), (Discordial,"ra")]
 (mapAFL_Str, mapStr_AFL) = doubleAssociate tableAffiliation
 ----
 convertVAR_To_String :: Variance -> String
@@ -320,10 +320,86 @@ sample = Formative
         _extension = Delimitive,
         _perspective = Monadic,
 
-        _variance = Homogenous,
+        _variance = Mediary,
         _fuzziness = Distinct,
-        _affiliation = NoSignificance
+        _affiliation = Harmonious
 }
+
+medicine :: Formative
+medicine = Formative{
+    _valence = MNO,
+    _pattern = Pat1,
+    _sdt = Tool,
+    _vowel1 = "á",
+    _vowel2 = "a",
+    _root = "mfsk",
+
+    _perspective = Unbounded,
+    _structure = Discrete,
+    _extension = Delimitive,
+
+    _variance = Heterogenous,
+    _fuzziness = Distinct,
+    _affiliation = NoSignificance
+}
+
+cryptography :: Formative
+cryptography = Formative {
+    _valence = MNO,
+    _pattern = Pat1,
+    _sdt = Symbols,
+    _vowel1 = "á",
+    _vowel2 = "a",
+    _root = "skft",
+
+    _perspective = Abstract,
+    _structure = Sequential,
+    _extension = Delimitive,
+
+    _variance = Mediary,
+    _fuzziness = Distinct,
+    _affiliation = Harmonious
+}
+secret :: Formative
+secret = Formative {
+    _valence = MNO,
+    _pattern = Pat1,
+    _sdt = Symbols,
+    _vowel1 = "u",
+    _vowel2 = "a",
+    _root = "skft",
+
+    _perspective = Monadic,
+    _structure = Discrete,
+    _extension = Delimitive,
+
+    _variance = Homogenous,
+    _fuzziness = Distinct,
+    _affiliation = NoSignificance
+}
+
+history :: Formative
+history = Formative {
+    _valence = MNO,
+    _pattern = Pat1,
+    _sdt = SpaceTime,
+    _vowel1 = "á",
+    _vowel2 = "u",
+    _root = "nn",
+
+    _perspective = Unbounded,
+    _structure = Uniplex,
+    _extension = Delimitive,
+
+    _variance = Heterogenous,
+    _fuzziness = Blurry,
+    _affiliation = Discordial
+}
+-- What if the affiliation is unclear/unknown?
+-- To what extent are these parameters "totally subjective"?
+--- The affiliation has to be observed by someone, right?
+--- "observed" or "created"
+
 
 sample2 :: Formative
 sample2 = Formative {
