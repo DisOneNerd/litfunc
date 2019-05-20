@@ -1,0 +1,57 @@
+Real fast on the morphology of basic formatives:
+
+An SDT can be thought of as a morphological element that takes the consonantal root ( Cr ), vowel infixes ( V1, V2 ) and a pattern ( Pattern ) as arguments.
+*Pattern is the way consonants are arranged w.r.t. the vowel infixes in a formative. So, for example the word "kanána" [generally a social group/organization/interpersonal relationship without particular reference to the roles or behaviors or cognitions the group ( or it's members ) has/facilitates] has the SDT and then the "pattern" CvCv , which I generally call Pattern 1.
+This is distinct from "kaánna" [A general group behavior without particular reference to the position or roles of the group  - i.e. it's appreciated holistically in the same way one might use the word "converse" without necessarily specifying who is or isn't being spoken to within the duration of a conversation] where the pattern, after the sdt, is vCCv.
+( There are generally 3 patterns that an SDT accepts. Cr, generally, have either 2, 3, or 4 consonants. When I write "CvCv", Cr with 3 or 4 just have their consonants broken into "chunks".
+So, for example, Pattern 1 of Cr w/ 3 is CvCCv and Cr w/ 4 is CCvCCv ).
+
+
+That said, consider the word:
+
+liskáftarisasjeisun
+
+This would be broken up as:
+
+SDT: `li` [Symbols]
+Pattern: Pattern 1 - CvCv
+Cr: `sk-ft` [Secrets/Secrecy/Secret] ( potentially "hidden", but not sure yet... )
+v1: á ( v1 is usually where the stress goes. I think, for now, this helps with keeping track of the morphemes and word boundaries )
+v2: a
+Ca: -risas
+- PSE: Abstract, Sequential, Delimitive
+- VFA: Heterogenous, Distinct, Harmonious
+Suffix: -jei + sun
+-- Chained-SDT su[Knowledge] [ pattern 1 & vowel 1 & vowel 2]
+
+The ```li``` sdt takes the afforementioned as arguments and then uses them to talk about how different ways a piece of information or some symbol(s) are organized, encoded, or given meaning in contexts that are not inherently/necessarily social. ( There are ways to talk about these "symbols" in a sensory or social context, but li isolates that unless marked otherwise. )
+
+
+```li```in Patern 1 basically will take the Cr and treat it as the symbol's linguistic/semiotic "modality" ( the material/metaphorical/experiential manifestation of the symbol independent of it's meaning or interpretations of it's meanings )
+
+V1, here, says we are looking at individual symbols.
+That is, we are not considering "words"/"sentences" nor are we considering "passages" or "prose" or "excerpts" or full "documents".
+
+v2, roughly, re-inforces that idea from V1.
+
+So, without any other morphemes, ```liskáfta``` would roughly translate to some symbol that is intended to be "secretive".
+As in "secrecy" is the underlying modality - as opposed to the symbol being hidden/kept a secret.
+Imagine a code symbol ( as opposed to a code word or a PIN or a randomly generated SSH key or something )
+
+```-risas``` is just a bunch of inflections per the Configurational affixes.
+
+So, ```liskáftarisas``` is almost like the abstract/general idea of sequentially organized secretive symbols that are fairly heterogenous, but still secretive symbols that coalesce in a harmonious way.
+
+I've been playing and juggling how to handle suffixes in general, but in this case ( and the choice of phonemes/morphemes will likely change ):
+- ```jei``` indicates that there is a suffix.
+-- The suffix "stacks" on top of the previous part of the formative.
+--- It does this by taking that formative and treating it as if it were a giant "Cr" for the class it's being fed into ( in this case that's "su" )
+-- ```jei``` also indicates that it will be fed into the class as if it were in Pattern 1 AND with Vowel 1 as arguments
+- ```su``` slides on the end as the sdt of choice
+--- `n` appends to the end and indicates Vowel 2 is the other argument.
+
+
+The `su` sdt will basically take all of that prior formative in along with the corresponding vowel infix and pattern information to say:
+The "study" of ```liskáftarisas```
+
+Or, roughly, the English suffix -ology

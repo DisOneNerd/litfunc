@@ -1,0 +1,57 @@
+> does LIT have support for custom/compound types?
+
+I'm "breaking" for a bit.
+
+The tldr answer is sort of yes & sort of no, but I wrote that doc earlier to explain more.
+There _is_ "stacked" typing in the sense that there are primitive types that everything normally is encoded in.
+Then using those, consonantal roots, vowel infixes, and other morphological categories one can derive more nuance and specific meanings. As a shorthand / or by using something akin to Ithkuil's extensive case system, one may generate various connections between formatives/data types.
+
+But these are not inherently "custom" persay.
+
+For example, if one wanted to talk about things that are "porous", they may use a data type that marks & inflects to give meaning for material properties/attributes. They might use a word dealing with "holes" to capture the notion of porousness. They may further inflect with configurational affixes to give more quality to the arrangement, in some sense, to these holes/pores.
+
+If one wanted to talk about pores on one's skin, they might still use the same sdt if they are looking at skin as a more generic material -  maybe in some kind of material science.
+
+However, they may also use an SDT dealing with component/architecture or disease ( or potentially one for "body part", which I think will be an upcoming addition to the SDTs ).
+
+The example with skin is interesting because skin is a physical, material thing that we may simultaneously think of as an organ/body part, a component of a system, and also a type of material for engineering or crafting ( among other things ).
+
+For this, there are several thoughts for resolving polysemy and missed nuances that come to mind.
+
+One is to use the case-stacking so that an individual may specify or isolate what manner they are referring to something.
+If they wish to refer to something as within two different SDTs at the same time, they may just have to juggle SDTs or "convert" between them somehow. I liken this to using a programming language where sometimes one wants to a number as a numerical data type that properly react to arithmetic operations. Versus other times when number is better utilized as a string data type where aspects about the individual digits/bits/characters of the numbers "name" are important.
+
+Another is to build on the growing code base of LIT so that the SDTs take on what might be called "methods" in OO programming langs, though in Haskell I think there are things called "type classes" that might be more useful/modular.
+
+For example, there are something that are more semantically sound, feasable, possible, practical, or realizable with one set of items/constructs than something else.
+One might talk about different shades of a color, but not in the same way they might different "shades" of movement or "shades" of tactile experience.
+
+In most usages of English, to use the word "shades" in those manners might be seen as poetic - which is generally fine.
+In LIT, "shade of" might be expressed with a suffix or with some other affix.
+But it would be likely that this affix would only make sense when applied to a handful of SDTs.
+Because of this, only SDTs in those classes should be allowed to "accept" that suffix.
+This is similar, I think, to one of JQs ideas in TNIL.
+
+Another example might be to consider how to talk about the sex and gender of different organisms.
+It might not make sense to do so in the same way as one might movement or tools.
+For example, people can say something like "a gay dash" or "a manly screwdriver", but this is done differently than when one might say "a female horse" or "an asexual polyp".
+
+Putting in morpho-syntactic constraints in the language can help with scenarios like this.
+
+*Though I do want to stress that if one wanted to say something like "a manly screwdriver", they could use a word that translates to "screwdriver" and use a word translating to "manly" as an adjective modifier. That may or may not make sense depending on context, but the idea is that some words more readily accept these kinds of added semantics, so they could ( should? ) more neatly/readily take on affixes to make that happen.
+
+All of that to say, however, this would not be the same as trying to take a word like "horse" and making that a sdt to talk about horses & horse-like animals.
+
+One could use a word for "horse" to talk about things like that via metaphor.
+They could potentially use some Ca to emphasize this as well - or to talk about things more concretely, but still in a "fuzzy" way.
+
+They could also use "horse" as a syntactic head in what could be roughly called a verb or noun phrase - they could just string on modifiers onto the word for horse.
+
+But it would not necessarily "feel the same" as using something more broad as an sdt.
+( I mean, if you are using very specific/customized words to classify other words, then it may not be such a bad tradeoff if doing so is more verbose.
+
+Though I feel like it would be significantly more verbose in LIT than something akin to this might be in Ithkuil or TNIL.
+
+*However, I've been giving more thought to the morpho-phonetics to see if there are ways to comfortably compress some information into smaller spaces.
+Comparing the current phonological rules with a potential alternative using the same consonants but with almost 2-3 times as vowels, I have found that some words that are 5-7 syllables long can be shortened to 3-5 with a wider, but not-to-scary phonology.
+This might make "customized" sdts more feasible , though imho, it seems like it would just be a matter of choosing a well-inflected formative to be a syntactic head, which isn't too different from what's currently happening.
