@@ -534,25 +534,3 @@ display s = putStrLn $ ( s ++ "\n")
 
 totalDisplay :: Formative -> IO()
 totalDisplay frm = display $ convertFormativeToString frm
-
--- data Card = Card
---   { _name        :: String
---   , _level       :: Int
---   , _description :: String
---   , _attack      :: Int
---   , _defense     :: Int
---   }
---   deriving (Eq, Show)
-
--- blueEyesWhiteDragon :: Card
--- blueEyesWhiteDragon = Card
---   { _name        = "Blue Eyes White Dragon"
---   , _level       = 8
---   , _description = "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale."
---   , _attack      = 3000
---   , _defense     = 2500
---   }
-
--- display :: Card -> String
--- display (Card {..}) =
---   [i|#{_name} Lv.#{_level}) [#{_attack}/#{_defense}]|]
