@@ -7,14 +7,6 @@ I hope to change this with time.
 
 All the main code of the language is currently in Semantemes.hs
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
 ## Usage
 
 Currently, the code only will lightly aide someone in making basic formatives. The values for the data constructors used in the formative appear in the codebase.
