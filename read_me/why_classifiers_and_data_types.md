@@ -36,7 +36,7 @@ For a final example, consider the following:
 
 Again, each of these could use different prefixes to concisely, clearly convey different ideas.
 
-One might argue that the above examples are presented to broadly or coarsely.
+One might argue that the above examples are presented too broadly or coarsely.
 Language is more complicated than simple, broad classifiers or categories.
 Things intersect and may overlap in different categories.
 
