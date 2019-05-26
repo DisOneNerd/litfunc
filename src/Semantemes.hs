@@ -120,7 +120,7 @@ tableSDT_to_String =
         (Color,"kru"),
         (Audial,"nda"),
         (Texture,"fa"),
-        (Flavor,"zga"),
+        (Flavor,"zge"),
 -- Social Manifest
         (Relations,"ka"),
         (Person,"gai"),
