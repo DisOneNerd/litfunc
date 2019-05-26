@@ -63,6 +63,7 @@ data SDT =
     | Color
     | Audial
     | Texture
+    | Flavor
     -- Social Manifest
     | Relations
     | Person
@@ -85,52 +86,55 @@ data SDT =
 
 tableSDT_to_String :: [(SDT,String)]
 tableSDT_to_String =
- [  (GrammPsn, "nu"),
+[  
+-- Misc/Uncertain
+(GrammPsn, "nu"),
         (Abst,"spu"),
         (Symbols,"li"),
-
+-- Bodies
         (Disease,"vai"),
-
+-- Geometric
         (Dim2,"ple"),
         (Dim3,"ra"),
         (Component,"vga"),
         (GeomAspect,"kru"),
-
+-- Materials
         (Gas,"plu"),
-        (Liquid,"gi"),
+        (Liquid,"nta"),
         (Solid,"nsi"),
         (MatterProperty,"mba"),
-
-        (SpaceTime,"tra"),
+-- Spatial-Teporal
+        (SpaceTime,"nte"),
         (Orientation,"vaz"), 
         (Path,"vu"),
         (Season,"si"),
         (Region,"mai"),
-
+-- Consumable Items
         (Clothing,"lau"),
         (Food,"fu"),
         (Cooking,"gra"),
         (Tool,"twi"),
-
+-- Sensory-Cog
         (Emotions,"rai"),
         (Sensory,"lu"),
-        (Color,"ku"),
+        (Color,"kru"),
         (Audial,"nda"),
         (Texture,"fa"),
-
+        (Flavor,"gu"),
+-- Social Manifest
         (Relations,"ka"),
         (Person,"gai"),
-
+-- Generic "Intellectual"
         (Number,"na"),
         (Knowledge,"su"),
         (Philosophy,"ta"),
-
+-- Animals
         (Terra,"ma"),
         (Marine,"sna"),
         (Avian,"vni"),
         (Reptile,"fao"),
         (Insect,"bi"),
-
+-- Non-Animal
         (Branch,"pa"),
         (NoBranch,"kai"),
         (Fungus,"du"),
