@@ -96,7 +96,7 @@ tableSDT_to_String =
 -- Geometric
         (Dim2,"ple"),
         (Dim3,"ra"),
-        (Component,"vga"),
+        (Component,"fka"),
         (GeomAspect,"kru"),
 -- Materials
         (Gas,"plu"),
@@ -120,7 +120,7 @@ tableSDT_to_String =
         (Color,"kru"),
         (Audial,"nda"),
         (Texture,"fa"),
-        (Flavor,"gu"),
+        (Flavor,"zga"),
 -- Social Manifest
         (Relations,"ka"),
         (Person,"gai"),
