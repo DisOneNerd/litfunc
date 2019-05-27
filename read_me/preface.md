@@ -3,7 +3,9 @@
 
 LIT stands for _Lit Ithkuilic Typing_.
 
-Basically, it is an Ithkuilic [conlang](https://en.wikipedia.org/wiki/Constructed_language_) that is easier to use than [Ithkuil](http://www.ithkuil.net/00_intro.html) and one that explicitly marks [semantic classes](https://en.wikipedia.org/wiki/Semantic_class). This is similar to how programming languages use [type systems](https://en.wikipedia.org/wiki/Type_system) or how natural languages like Mandarin use [noun classifiers](https://en.wikipedia.org/wiki/Classifier_(linguistics) ) or like how Swahili uses [noun classes](https://en.wikipedia.org/wiki/Noun_class).
+It draws inspiration from many conlangs, but in particular John Quijada's ["A Grammar of Ithkuil"](http://www.ithkuil.net)
+
+Basically, it is an Ithkuilic [conlang](https://en.wikipedia.org/wiki/Constructed_language_) that is supposed to be easier to use than [Ithkuil](http://www.ithkuil.net/00_intro.html) and one that explicitly marks [semantic classes](https://en.wikipedia.org/wiki/Semantic_class). This is similar to how programming languages use [type systems](https://en.wikipedia.org/wiki/Type_system) or how natural languages like Mandarin use [noun classifiers](https://en.wikipedia.org/wiki/Classifier_(linguistics) ) or like how Swahili uses [noun classes](https://en.wikipedia.org/wiki/Noun_class).
 
 In general, most of Ithkuil's goals of representing a large breadth and precision of semantic ideas is preserved, but how LIT does that is somewhat different. The morphology is different. While concision is desirable, it does not take as much priority over ease of use and accuracy of communication.
 LIT, in a way, is more similar to Ithkuil's predecessor [Ilkash](https://en.wikipedia.org/wiki/Ithkuil#Ilaksh_(2007)), which also used a kind of semantic class system.
