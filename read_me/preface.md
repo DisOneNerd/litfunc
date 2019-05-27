@@ -18,7 +18,8 @@ Here are a few motivations for this:
 - It's cool
 - Easier to build an IDE or assistant to help communicating in LIT ( _a lit assistant_ )
 - Formally clear representation of semantics
-- Neat exploration for [NLP](https://en.wikipedia.org/wiki/Computational_semantics) and potentially [ML](https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning)
+- Neat exploration for [NLP](https://en.wikipedia.org/wiki/Computational_semantics)
+- There can be some insights into [Knowledge Representation](https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning)
 - Formal, computational approaches to the [humanities and general inquiry](https://blog.stephenwolfram.com/2016/10/computational-law-symbolic-discourse-and-the-ai-constitution/)
 - Easier to leverage [mathematical category-theoretic analysis](https://plato.stanford.edu/entries/category-theory/)
 
