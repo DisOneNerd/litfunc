@@ -32,5 +32,3 @@ I plan to add in more and better documentation in the near future. My hope is to
 This won't be an easy task and I expect, to be done on a larger, serious scale, would involve people from many different perspectives and backgrounds...
 
 I guess, in a way, this is an early stage of what could be a more powerful language.
-
-( Testing )
